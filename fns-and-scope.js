@@ -20,8 +20,8 @@ var name = 'Tyler';
 
 
   function getName() {
-    prompt('Enter Name','name')
-    return name
+    prompt('Enter Name','')
+    return (reply) 
   }
 
 
