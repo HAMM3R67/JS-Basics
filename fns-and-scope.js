@@ -19,7 +19,8 @@ var name = 'Tyler';
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
 function getName (){ 
-  alert("hello, " + prompt('Please Enter Name Here'));
+  var name = prompt('Enter Name Here')
+  alert(name)
 }
 
 getName();
@@ -34,10 +35,16 @@ getName();
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 
-  function welcome ("Welcome", getName) {
-    return "Welcome" + getName
-  };
-  
+ function getName (){ 
+  var name = prompt('Enter Name Here')
+}
+
+function welcome (){
+    getName(name)
+    alert('Welcome ,' + name)
+}
+
+welcome(name);
   
 
 
