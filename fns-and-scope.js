@@ -17,12 +17,13 @@ var name = 'Tyler';
 
 
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
-var name = function()
 
-  function getName() {
-    prompt('Name','Enter Name Here')
-    alert(getName)
+function getName (){
+  prompt('Please Enter Name Here', ' ') {
+    //struggling to get it to return the name
   }
+}
+  
 
 
 //Next Problem
