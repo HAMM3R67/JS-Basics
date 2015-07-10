@@ -21,7 +21,7 @@ var name = 'Tyler';
 
   function getName() {
     prompt('Name','Enter Name Here')
-    alert () 
+    return (); 
   }
 
 
