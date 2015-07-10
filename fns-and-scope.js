@@ -18,9 +18,11 @@ var name = 'Tyler';
 
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
-function getName (){
-  prompt('Please Enter Name Here') 
-}   
+function getName (){ 
+  alert("hello, " + prompt('Please Enter Name Here'));
+}
+
+getName();
     //struggling to get it to return the name
   
 
@@ -35,6 +37,8 @@ function getName (){
   function welcome ("Welcome", getName) {
     return "Welcome" + getName
   };
+  
+  
 
 
 //Next problem
