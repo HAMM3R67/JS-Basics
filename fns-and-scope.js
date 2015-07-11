@@ -59,6 +59,15 @@ welcome();
 
  welcome();
   
+  //Try this:
+  /*
+  function addSquares(a,b) {
+   function square(x) {
+      return x * x;
+   }
+   return square(a) + square(b);
+}
+  */
 
 
 //Next problem
@@ -103,11 +112,11 @@ welcome();
 
 //Now save the function definition of myName into a new variable called newMyName
 
-  //Code Here
+  var newMyName = myName
 
 //Now alert the result of invoking newMyName
 
-
+alert(newMyName)
 
 //Next problem
 
