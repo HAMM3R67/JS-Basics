@@ -79,8 +79,13 @@ welcome();
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-  //Answer Here
-
+  //Answer Here: false, null, undefined, 0, NaN, '', (document.all) [1];
+  //to check if something is falsy you would run an if statement
+  /*
+  if (x !== "string") {
+    alert("falsy")
+  }
+*/
 
 
 //Next Problem
@@ -89,7 +94,12 @@ welcome();
 
 //Create a function called myName that returns your name
 
-  //Code Here
+  function myName() {
+     var name = "Trevor";
+     alert(name);
+ }
+
+ myName();
 
 //Now save the function definition of myName into a new variable called newMyName
 
