@@ -42,7 +42,7 @@ getName();
   alert(name)
 }
 
-function welcome (greeting){
+function welcome ("greeting", name){
     var greeting = ("Welcome ," + name)
     alert(greeting);
 }
@@ -58,7 +58,8 @@ welcome();
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
+  //Parameters are used in the function definition, they are named variables that are passed into a function that import arguments;
+  // Arguments are used in the function Call. They are the real values passed to the function.
 
 
 //Next problem
